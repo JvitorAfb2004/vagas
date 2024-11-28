@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Maven+Pro&display=swap');
+
+:root{
+    --background: #f4f6f8;    
+    --primary: #80297d;
+    --border: #919eab, opacity 5.00%;    
+    --icon: #454f5b;
+}
+
+*{
+    font-family: "Lexend", sans-serif;
+}
+.body{
+    background-color: var(--background)!important;
+}
+
+.nav{
+    padding: 25px;
+    padding-right: 30px !important;
+
+background: rgba(255, 255, 255, 0.2) !important;
+border-radius: 16px !important;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+backdrop-filter: blur(5px) !important;
+-webkit-backdrop-filter: blur(5px) !important;
+border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+.v-btn{
+    cursor: pointer;
+}
+.mr10{
+    margin-right: 10px;
+}
+.header{
+    margin-top: 120px;
+    background-color: var(--primary);
+    width: 100vw;
+    height: 400px;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header h1{
+    color: #ffffff;
+    font-size: 30pt;
+}
+.header h2{
+  color: #ffffff;
+  font-size: 18pt;
+  font-weight: 400;
+}
+.pesquisa{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    background-color: white;
+    padding: 30px !important;
+    border-radius: 10px;
+    width: 70vw !important;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap !important;
+    top: 90px;
+    left: 0 !important;
+    right: 0 !important;
+}
+.pesquisa .v-text-field{
+    outline-color: var(--primary) !important;
+
+}
+.v-col{
+    text-align: left;
+}
+ .btnbuscar{
+    width: 250px !important;
+    height: 50px !important;
+    border-radius: 6px !important;
+    margin-bottom: 50px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+ }
+.chips{
+    padding-left: 4px;
+
+}
+.chips .v-chip{
+    margin-right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.v-chip:hover{
+    background-color: var(--primary);
+    transition: all 0.3s ease-out;
+    color: white;
+}
+
+section{
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mt40{
+    margin-top: 40px;
+}
+.center{
+    justify-content: center;
+}
+
+.card{
+
+width: 350px;
+height: 210px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+margin: 10px;
+background: rgba(255, 255, 255, 0.2) !important;
+border-radius: 16px !important;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+backdrop-filter: blur(5px) !important;
+-webkit-backdrop-filter: blur(5px) !important;
+border: 1px solid rgba(255, 255, 255, 0.3) !important;
+cursor: pointer;
+transition: all 0.3s ease-out;
+}
+.card:hover{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    transition: all 0.3s ease-out;
+}
+.container{
+    margin: 15px;
+    background-color: black;
+    width: 230px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    height: 170px;
+    border-radius: 10px;
+   
+}
+.container .stack{
+    background-color: var(--primary);
+    border-radius: 10px;
+    opacity: 80%;
+    width: 230px;
+    height: 170px;
+    position: absolute;
+}
+.container img{
+  width: 230px;
+  height: 170px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.container .stack span{
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    font-size: 14pt;
+}
+.testimonial-section {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    height: 350px !important;
+  }
+  
+  .testimonial {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px) !important;
+    -webkit-backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;height: 200px;
+    width: 350px !important;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial-section .v-btn{
+    box-shadow: none !important;
+    border: none !important;
+    background-color:var(--primary);
+    color: white;
+    margin-bottom: 120px;
+  }
+  .testimonial-text {
+    font-size: 18px;
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .author-name {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+  }
+  .mt20{
+    margin-top: 20px !important;
+  }
+  .social-icons .v-btn{
+    margin: 5px;
+  }
+
+  .v-list-item-title{
+    font-size: 11pt !important;
+    color: var(--icon);
+  }
+
+@media only screen and (max-width: 768px){
+.header{
+    height: 540px !important;
+    width: 90vw !important;
+}.pesquisa{
+    height: 340px;
+    margin-bottom: 150px;
+}
+.btnbuscar{
+    width: 100% !important;
+    margin: 0 auto;
+    margin-top: -15px;
+}.chips{
+    margin-top: -10px !important;
+    margin-left: 5px !important;
+    margin-bottom: 10px;
+}
+.menu{
+    display: none !important;
+}
+}
